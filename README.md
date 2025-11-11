@@ -1,0 +1,2 @@
+# shellscript
+practicing shellscript
