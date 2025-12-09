@@ -79,6 +79,11 @@ ld hello.o -o hello
 ### Compiz Windows Effect:
 https://extensions.gnome.org/extension/3210/compiz-windows-effect/
 
+### dash to dock: https://extensions.gnome.org/extension/307/dash-to-dock/
+
+### para minimizar pela dock:
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
+
 ### Compiz Magic Lamp Effect:
 https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
 
