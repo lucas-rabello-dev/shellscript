@@ -1,19 +1,20 @@
-## Configurações Iniciais do Fedora
+## Configurações Iniciais para o Debian
+se vier com o gnome default (provavel)
 
 ### 1. Atualizar o sistema
 ```bash
 
-sudo dnf update -y
-sudo dnf upgrade -y
+sudo aptupdate -y
+sudo aptupgrade -y
 ```
 
 ### Instalar extensões e ajustes
 
 ```bash
 
-sudo dnf install gnome-shell-extension-dash-to-dock -y
-sudo dnf install gnome-tweaks -y
-sudo dnf install gnome-extensions-app -y
+sudo aptinstall gnome-shell-extension-dash-to-dock -y
+sudo aptinstall gnome-tweaks -y
+sudo aptinstall gnome-extensions-app -y
 ```
 ### Ativar botões de minimizar, maximizar e fechar
 
@@ -22,16 +23,14 @@ sudo dnf install gnome-extensions-app -y
 gsettings set org.gnome.desktop.wm.preferences button-layout "appmenu:minimize,maximize,close"
 ```
 
-
-
 ### Fastfetch
 
 ```bash
-sudo dnf install fastfetch -y
+sudo aptinstall fastfetch -y
 ```
 ### Shell Fish
 ```bash
-sudo dnf install fish -y
+sudo aptinstall fish -y
 ```
 
 ### Definir como shell padrão
@@ -42,11 +41,11 @@ chsh -s $(which fish)
 ### Linguagens / compiladores
 ### Go
 ```bash
-sudo dnf install golang -y
+sudo aptinstall golang -y
 ```
 ### C++
 ```bash
-sudo dnf install g++ -y
+sudo aptinstall g++ -y
 ```
 ### Git e GitHub
 ```bash
@@ -68,7 +67,7 @@ curl -f https://zed.dev/install.sh | sh
 ### Assembly (x86-64)
 ### Instalar NASM e Linker
 ```bash
-sudo dnf install nasm binutils -y
+sudo aptinstall nasm binutils -y
 ```
 ### Compilar e linkar um programa simples
 ```bash
